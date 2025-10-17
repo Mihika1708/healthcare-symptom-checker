@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from app.models.schemas import SymptomRequest, SymptomResponse, QueryHistory
-from app.services.llm_service import LLMService
-from app.services.database_service import DatabaseService
+from models.schemas import SymptomRequest, SymptomResponse, QueryHistory
+from services.llm_service import LLMService
+from services.database_service import DatabaseService
 from typing import List
 
 router = APIRouter()

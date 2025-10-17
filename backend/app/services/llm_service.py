@@ -1,6 +1,6 @@
 import requests
 import json
-from app.models.schemas import SymptomResponse, ConditionSuggestion
+from models.schemas import SymptomResponse, ConditionSuggestion
 from typing import List
 import random
 

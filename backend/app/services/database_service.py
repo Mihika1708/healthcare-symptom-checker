@@ -1,5 +1,5 @@
 from supabase import create_client, Client
-from app.config import settings
+from config import settings
 import json
 from datetime import datetime
 
