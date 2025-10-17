@@ -33,7 +33,15 @@ healthcare-symptom-checker/
 ### Backend Setup
 ```bash
 cd backend
-python -m venv venv
-.\venv\Scripts\activate  # Windows
+python3.11 -m venv venv
+.\venv\Scripts\activate
 pip install -r requirements.txt
-python -m uvicorn app.main:app --reload --port 8000
+cd app
+python main.py
+```
+### Frontend Setup
+```bash
+cd frontend
+flutter clean 
+flutter pub get
+flutter run -d chrome
